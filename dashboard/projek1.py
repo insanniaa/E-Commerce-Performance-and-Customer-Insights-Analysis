@@ -22,7 +22,7 @@ def prepare_data(df, start_date, end_date):
 st.header('E-Commerce Public Dashboard :')
 
 # Load data
-final_df = pd.read_csv(r"C:\Users\ACER\Documents\course\dicoding\projek\Proyek Analisis Data\dashboard\final_df.csv")
+final_df = pd.read_csv('./dashboard/final_df.csv')
 
 # Create date input for filtering
 start_date = st.sidebar.date_input("Start Date", value=pd.to_datetime("2016-01-01"))
