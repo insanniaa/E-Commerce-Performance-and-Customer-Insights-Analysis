@@ -340,4 +340,4 @@ plt.xticks(rotation=45)  # Rotate x labels for better visibility
 st.pyplot(plt)
 
 
-st.caption('Copyright (c) Insania Cindy 2024')
+st.caption('Copyright (c) Insania Cindy 2025')
